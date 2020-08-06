@@ -1,5 +1,5 @@
 <?php 
-$db = new mysqli('localhhost','root','','latihan');
+$db = new mysqli('localhost','root','','latihan');
 if ($db) {
 	# code...
 }else{
