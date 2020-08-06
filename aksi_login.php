@@ -14,6 +14,7 @@ if ($cek->num_rows > 0) {
 	//tanda pengenal login
 	$_SESSION['login'] =1;
 	$_SESSION['username'] = $row['username'];
+	header('location:index.php');
 
 }else{
 	//jika username dan password tidak sesuai, maka kembalikan kehalaman login
